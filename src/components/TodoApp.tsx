@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
 interface TodoItem {
-     id: string;
-     text: string;
-     completed: boolean;
-   }
+  id: string;
+  text: string;
+  completed: boolean;
+}
 
 const TodoApp = () => {
   const [todos, setTodos] = useState<TodoItem[]>([]);
